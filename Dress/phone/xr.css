@@ -1,0 +1,82 @@
+.mainrow {
+    width: 70%;
+    border: 2px solid gray;
+}
+.phimg {
+    width: 100%;
+    object-fit: contain;
+}
+.obj {
+    padding-top: 5rem;
+}
+.sale {
+    border: 1px solid gray;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 4px;
+}
+/* .clrdiv {
+    width: 30px !important;
+    height: 30px;
+    border-radius: 50%;
+} */
+.clrrow {
+    width: 50%;
+    --bs-gutter-x: 0 !important;
+}
+.circlediv {
+    width: 100%;
+    height: 30px;
+    border-radius: 50%;
+    border: 3px solid gray;
+    padding: 15px;
+    cursor: pointer;
+}
+.capdiv {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #80808040;
+    position: relative;
+    cursor: pointer;
+}
+.capdiv p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+}
+.capdiv i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+}
+#numinp {
+    width: 60px;
+    background-color: #dddcdc;
+}
+.tog {
+    transform: scale(0.5);
+    transition: all 0.5s;
+}
+.bi-x-lg {
+    position: absolute;
+    top: -7px;
+    right: 1px;
+    font-size: 29px;
+    color: #116611;
+}
+.disable {
+    pointer-events: none; 
+    display: block;
+}
+.pricebor {
+    border: 3px solid skyblue;
+}
+.line {
+    text-decoration: line-through;
+    opacity: 0.7;
+}

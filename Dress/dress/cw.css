@@ -1,0 +1,19 @@
+.clrdivs {
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+}
+.clrrow {
+    padding-left: 15px !important;
+}
+.imgdiv img {
+    width: 100%;
+    height: 500px;
+    object-fit: contain;
+}
+.row {
+    --bs-gutter-x: 0 !important;
+}
+.addcls{
+    border: 2px solid black;
+}
